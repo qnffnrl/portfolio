@@ -7,6 +7,7 @@ react 포트폴리오 제작
 ## 목표
 * react 공부하면서 구현
 * SPA로 구현
+* Component 최대한 
 * 프로젝트 소개 페이지에서 modal 기능 활용
 
 # Mock Up
