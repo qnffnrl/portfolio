@@ -4,6 +4,11 @@ react 포트폴리오 제작
 # Reference / Clone coding
 * https://lmpixels.com/demo/breezycv/darkfw/1/index.html#home
 
+## 목표
+* react 공부하면서 구현
+* SPA로 구현
+* 프로젝트 소개 페이지에서 modal 기능 활용
+
 # Mock Up
 ## Home
 ![portfolio  main](https://user-images.githubusercontent.com/71891870/208224255-7f8cd3ad-26ec-45e7-a460-c11744f860eb.png)
