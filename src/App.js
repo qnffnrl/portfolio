@@ -15,6 +15,7 @@ function App() {
             <Nav></Nav>
             <Routes>
                 <Route path="/" element={<Home/>} exact={true}/>
+                <Route path="/Home" element={<Home/>} exact={true}/>
                 <Route path="/About" element={<AboutMe/>} exact={true}/>
                 <Route path="/Activity" element={<Activity/>} exact={true}/>
                 <Route path="/Portfolio" element={<Portfolio/>} exact={true}/>

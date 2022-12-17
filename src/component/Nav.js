@@ -1,39 +1,38 @@
 /* eslint-disable */
 import React from 'react';
 import { Link } from "react-router-dom"
-
 function Nav(props) {
     return (
         <div className="nav">
             <div className="nav-left">
                 <ul>
                     <li>
-                        <Link className="link" to="/">
-                            <img src="icons/icon-home.png"/>
+                        <Link className="link" to="/Home">
+                            <img id="home" src="icons/icon-home.png"/>
                             <p className="nav-name">Home</p>
                         </Link>
                     </li>
                     <li>
                         <Link className="link" to="/About">
-                            <img src="icons/icon-about.png"/>
+                            <img id="about" src="icons/icon-about.png"/>
                             <p className="nav-name">About Me</p>
                         </Link>
                     </li>
                     <li>
                         <Link className="link" to="/Activity">
-                            <img src="icons/icon-activity.png"/>
+                            <img id="activity" src="icons/icon-activity.png"/>
                             <p className="nav-name">Activity</p>
                         </Link>
                     </li>
                     <li>
                         <Link className="link" to="/Portfolio">
-                            <img src="icons/icon-portfolio.png"/>
+                            <img id="portfolio" src="icons/icon-portfolio.png"/>
                             <p className="nav-name">Portfolio</p>
                         </Link>
                     </li>
                     <li>
                         <Link className="link" to="/Contact">
-                            <img src="icons/icon-contact.png"/>
+                            <img id="contact" src="icons/icon-contact.png"/>
                             <p className="nav-name">Contact</p>
                         </Link>
                     </li>
