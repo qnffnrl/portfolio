@@ -21,15 +21,40 @@ body{
   min-height: 100%;
 }
 
+.back {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper{
+  padding: 3% 5% 0 5%;
+  min-width: 800px;
+  min-height: 85%;
+}
+
 /******************************** Until Default **********************************/
 
+/* Tools */
 
+.gradient{
+  background: linear-gradient(90deg, #ee0979, #ff6a00);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.gradient-bold{
+  background: linear-gradient(90deg, #ee0979, #ff6a00);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bolder;
+}
+
+/* ----- */
 
 /******************************** start-nav **********************************/
 
 .nav{
   min-width: 440px;
-  min-height: 1000px;
   width: 20%;
   height: 100%;
   display: flex;
@@ -169,12 +194,100 @@ body{
 }
 
 .home > div > p:last-child{
-  margin-left: 30px;
+  margin-left: 35px;
   font-size: 15px;
 }
 
+/******************************** end-home **********************************/
 
 
+/******************************** start-about **********************************/
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+}
+
+#div-aboutMe {
+  width: 100%;
+  height: 30%;
+}
+
+#div-aboutMe > .title{
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+#div-aboutMe > #content {
+  display: flex;
+}
+
+#div-aboutMe > #content > #content-left {
+  width: 65%;
+  margin-right: 5%;
+}
+
+#div-aboutMe > #content > #content-right {
+  width: 30%;
+}
+
+#div-aboutMe > #content > #content-right > ul > li {
+  width: 100%;
+  margin: 0 0 30px 0;
+  display: flex;
+}
+
+#div-aboutMe > #content > #content-right > ul > li  > span:first-child{
+  width: 20%;
+  text-align: right;
+}
+
+#div-aboutMe > #content > #content-right > ul > li  > span:last-child {
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+#div-whatICanDo {
+  display: flex;
+  padding-top: 20px;
+  height: 60%;
+  flex-direction: column;
+  width: 100%;
+}
+
+#div-whatICanDo > .title{
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+#canDoIt-top {
+  display: flex;
+  height: 50%;
+  margin-bottom: 30px;
+}
+
+#canDoIt-bottom {
+  display: flex;
+  height: 50%;
+}
+
+.canDoIt {
+  width: 50%;
+  height: 100%;
+  padding: 20px 0 0 10px;
+}
+
+.doIt-title{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.doIt-content{
+  padding-left: 10px;
+}
+
+/******************************** end-about **********************************/
 
 
 
