@@ -149,33 +149,29 @@ body{
   margin-bottom: 200px;
 }
 
-.home > div > p:first-child{
-  animation: title 2s infinite;
+.home > div {
+  width: 600px;
+}
+
+.home > div > p:first-child {
   font-size: 60px;
   margin: 5px;
   border-bottom: 1px solid grey;
-}
-
-@keyframes title {
-  from{
-    color: white;
-  }
-  to{
-    color: red;
-  }
 }
 
 .home > div > p:nth-child(2){
   font-size: 20px;
   margin-top: 10px;
   margin-left: 30px;
+  background: linear-gradient(90deg, #ee0979, #ff6a00);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 .home > div > p:last-child{
   margin-left: 30px;
   font-size: 15px;
 }
-
 
 
 

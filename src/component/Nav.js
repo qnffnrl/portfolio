@@ -43,7 +43,7 @@ function Nav(props) {
                 <div>
                     <div className="profileImage"></div>
                     <p className="name">안 효 원</p>
-                    <p className="to-be">Back-End developer</p>
+                    <p className="to-be">@risker</p>
                     <div className="social">
                         <ul>
                             <li><a href="https://github.com/qnffnrl"><img src="icons/icon-github.png"/></a></li>
