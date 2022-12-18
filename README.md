@@ -14,7 +14,8 @@ react 포트폴리오 제작
 * react-router-com
 * typeit-react
 
-# Mock Up
+# Mock Up 
+### by Kakao Oven
 ## Home
 ![portfolio  main](https://user-images.githubusercontent.com/71891870/208224255-7f8cd3ad-26ec-45e7-a460-c11744f860eb.png)
 
