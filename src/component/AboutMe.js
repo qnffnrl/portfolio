@@ -6,7 +6,7 @@ function AboutMe(props) {
         <div className="back">
             <div className="wrapper about-wrapper">
                 <div id="div-aboutMe">
-                    <p className="title"><span className="gradient">@About</span> Me</p>&nbsp;
+                    <p className="title font-size-big"><span className="gradient">@About</span> Me</p>
                     <div id="content">
                         <div id="content-left">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt doloribus ea explicabo facilis, fugiat harum laboriosam magni perferendis quam quibusdam, ratione saepe vero. Beatae consequuntur illum necessitatibus quis tenetur.
@@ -15,17 +15,17 @@ function AboutMe(props) {
                         </div>
                         <div id="content-right">
                             <ul>
-                                <li><span className="gradient-bold">Age</span>  <span>25</span></li>
-                                <li><span className="gradient-bold">Area</span>  <span>Seoul / Gyeonggi / Incheon</span></li>
-                                <li><span className="gradient-bold">e-mail</span> <span>roakfwk30@naver.com</span></li>
-                                <li><span className="gradient-bold">Phone</span> <span>010-5635-5918</span></li>
+                                <li><span className="gradient bold">Age</span>  <span>25</span></li>
+                                <li><span className="gradient bold">Area</span>  <span>Seoul / Gyeonggi / Incheon</span></li>
+                                <li><span className="gradient bold">e-mail</span> <span>roakfwk30@naver.com</span></li>
+                                <li><span className="gradient bold">Phone</span> <span>010-5635-5918</span></li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
                 <div id="div-whatICanDo">
-                    <p className="title"><span className="gradient">@What</span> I Can Do</p>
+                    <p className="title font-size-middle"><span className="gradient">@What</span> I Can Do</p>
                     <div id="canDoIt-top">
                         <div className="canDoIt">
                             <img src="icons/icon-programming.png"/>

@@ -10,7 +10,13 @@ function Home(props) {
                 <p>
                     <TypeIt
                         getBeforeInit={(instance) => {
-                            instance.pause(500).type("Hello! I'm risker ").pause(1200).type("and..").pause(1500).delete(23).pause(1000).type("Trouble Shooter :)");
+                            instance.pause(500).type("Hello! I'm risker ")
+                                .pause(1200)
+                                    .type("and..")
+                                .pause(1500)
+                                    .delete(23)
+                                .pause(1000)
+                                    .type("Trouble Shooter <img id='gun' src='icons/icon-gun.png'/> ");
                             return instance;
                         }}
                     />

@@ -9,35 +9,6 @@ import Activity from "./component/Activity";
 import Portfolio from "./component/Portfolio";
 import Contact from "./component/Contact";
 
-function clear(){
-    document.getElementById("home").style.filter = "none";
-    document.getElementById("about").style.filter = "none";
-    document.getElementById("activity").style.filter = "none";
-    document.getElementById("portfolio").style.filter = "none";
-    document.getElementById("contact").style.filter = "none";
-}
-
-function checkIndex(){
-    let index = (window.location.href).split('/')[3];
-    if(index === "Home" || index === "") {
-        clear();
-        document.getElementById("home").style.filter = "opacity(0.5) drop-shadow(0 0 0 #3498db)";
-    }else if(index === "About"){
-        clear();
-        document.getElementById("about").style.filter = "opacity(0.5) drop-shadow(0 0 0 #3498db)";
-    }else if(index === "Activity"){
-        clear();
-        document.getElementById("activity").style.filter = "opacity(0.5) drop-shadow(0 0 0 #3498db)";
-    }else if(index === "Portfolio"){
-        clear();
-        document.getElementById("portfolio").style.filter = "opacity(0.5) drop-shadow(0 0 0 #3498db)";
-    }else{
-        clear();
-        document.getElementById("contact").style.filter = "opacity(0.5) drop-shadow(0 0 0 #3498db)";
-    }
-}
-setInterval(checkIndex, 100);
-
 function App (){
     return (
         <div className="page">
@@ -54,3 +25,51 @@ function App (){
     )
 }
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ *  nav 아이콘 효과 제거
+ */
+function clear(){
+    for (let i = 0; i < 5; i++) {
+        document.getElementsByClassName("nav-name")[i].setAttribute("style", "text-decoration:none;")
+    }
+}
+
+/**
+ *  현재 페이지 nav 아이콘 효과
+ */
+function checkIndex(){
+    let index = (window.location.href).split('/')[3];
+    if(index === "Home" || index === "") {
+        clear();
+        document.getElementsByClassName("nav-name")[0].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
+    }else if(index === "About"){
+        clear();
+        document.getElementsByClassName("nav-name")[1].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
+    }else if(index === "Activity"){
+        clear();
+        document.getElementsByClassName("nav-name")[2].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
+    }else if(index === "Portfolio"){
+        clear();
+        document.getElementsByClassName("nav-name")[3].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
+    }else{
+        clear();
+        document.getElementsByClassName("nav-name")[4].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
+    }
+}
+setInterval(checkIndex, 100);
+
+
+
+
