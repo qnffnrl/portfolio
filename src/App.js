@@ -9,7 +9,7 @@ import Activity from "./component/Activity";
 import Portfolio from "./component/Portfolio";
 import Contact from "./component/Contact";
 
-function App() {
+function App (){
     return (
         <div className="page">
             <Nav></Nav>
@@ -24,5 +24,4 @@ function App() {
         </div>
     )
 }
-
 export default App;
