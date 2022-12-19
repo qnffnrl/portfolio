@@ -9,6 +9,35 @@ import Activity from "./component/Activity";
 import Portfolio from "./component/Portfolio";
 import Contact from "./component/Contact";
 
+function clear(){
+    document.getElementById("home").style.filter = "none";
+    document.getElementById("about").style.filter = "none";
+    document.getElementById("activity").style.filter = "none";
+    document.getElementById("portfolio").style.filter = "none";
+    document.getElementById("contact").style.filter = "none";
+}
+
+function checkIndex(){
+    let index = (window.location.href).split('/')[3];
+    if(index === "Home" || index === "") {
+        clear();
+        document.getElementById("home").style.filter = "opacity(0.5) drop-shadow(0 0 0 #3498db)";
+    }else if(index === "About"){
+        clear();
+        document.getElementById("about").style.filter = "opacity(0.5) drop-shadow(0 0 0 #3498db)";
+    }else if(index === "Activity"){
+        clear();
+        document.getElementById("activity").style.filter = "opacity(0.5) drop-shadow(0 0 0 #3498db)";
+    }else if(index === "Portfolio"){
+        clear();
+        document.getElementById("portfolio").style.filter = "opacity(0.5) drop-shadow(0 0 0 #3498db)";
+    }else{
+        clear();
+        document.getElementById("contact").style.filter = "opacity(0.5) drop-shadow(0 0 0 #3498db)";
+    }
+}
+setInterval(checkIndex, 100);
+
 function App (){
     return (
         <div className="page">

@@ -250,7 +250,7 @@ body{
 
 #div-whatICanDo {
   display: flex;
-  padding-top: 20px;
+  padding-top: 5%;
   height: 60%;
   flex-direction: column;
   width: 100%;
@@ -263,13 +263,13 @@ body{
 
 #canDoIt-top {
   display: flex;
-  height: 50%;
+  /*height: 50%;*/
   margin-bottom: 30px;
 }
 
 #canDoIt-bottom {
   display: flex;
-  height: 50%;
+  /*height: 50%;*/
 }
 
 .canDoIt {
