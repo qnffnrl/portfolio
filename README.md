@@ -5,7 +5,7 @@ react 포트폴리오 제작
 
 # Reference / Clone coding
 * https://lmpixels.com/demo/breezycv/darkfw/1/index.html#home
-* https://codepen.io/darcyvoutt/pen/ogPrpK
+* https://codepen.io/darcyvoutt/pen/ogPrpK (타임라인)
 
 ---
 ### Activity 페이지 Timeline 참고 Reference
@@ -28,7 +28,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## 라이브러리
 * react-router-com
-* typeit-react
+* typeit-react (Home 페이지 키보드 효과)
 
 # Mock Up 
 ### @by Kakao Oven
