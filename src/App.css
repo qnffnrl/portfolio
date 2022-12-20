@@ -187,6 +187,12 @@ body{
   font-size: 15px;
 }
 
+.comment{
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+
 /******************************** end-home **********************************/
 
 
@@ -447,11 +453,13 @@ h3{
 }
 
 .techs > .stack:hover{
+  cursor: default;
   background-color: #dc284e;
   color: whitesmoke;
 }
 
 .tools > .stack:hover{
+  cursor: default;
   background-color: #3c55e0;
   color: whitesmoke;
 }
