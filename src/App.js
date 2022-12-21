@@ -43,7 +43,7 @@ export default App;
  */
 function clear(){
     for (let i = 0; i < 5; i++) {
-        document.getElementsByClassName("nav-name")[i].setAttribute("style", "text-decoration:none;")
+        document.getElementsByClassName("n")[i].setAttribute("style", "text-decoration:none;")
     }
 }
 
@@ -54,19 +54,19 @@ function checkIndex(){
     let index = (window.location.href).split('/')[3];
     if(index === "Home" || index === "") {
         clear();
-        document.getElementsByClassName("nav-name")[0].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
+        document.getElementsByClassName("n")[0].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
     }else if(index === "About"){
         clear();
-        document.getElementsByClassName("nav-name")[1].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
+        document.getElementsByClassName("n")[1].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
     }else if(index === "Activity"){
         clear();
-        document.getElementsByClassName("nav-name")[2].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
+        document.getElementsByClassName("n")[2].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
     }else if(index === "Portfolio"){
         clear();
-        document.getElementsByClassName("nav-name")[3].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
+        document.getElementsByClassName("n")[3].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
     }else{
         clear();
-        document.getElementsByClassName("nav-name")[4].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
+        document.getElementsByClassName("n")[4].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
     }
 }
 setInterval(checkIndex, 100);

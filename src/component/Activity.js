@@ -12,7 +12,7 @@ function Activity(props) {
                         <p className="w-50 title font-size-big"><span className="gradient">@Activity</span></p>
                         <p id="skills" className="title font-size-big"><span className="gradient">@</span><span className="gradient under-dotted-line">Skills</span></p>
                         <div id="hover-text" className="text-center">
-                            <p className="bold gradient">* Percentage</p>
+                            <p className="bold"><span className="gradient">* Percentage</span></p>
                             <p>70% &lt;=  업무에서 사용해요  &lt;= 100%</p>
                             <p>50% &lt;=  공부가 조금 필요해요  &lt; 70%</p>
                         </div>
@@ -94,7 +94,12 @@ function Activity(props) {
                         </div>
                     </div>
                 </div>
-                {/* 자격증, 수상 */}
+
+                <div className="d-flex flex-direction-column">
+                    <p className="sub-title"><span className="gradient">@Award</span> history</p>
+                    <div></div>
+                    <p className="sub-title"><span className="gradient">@Certificate</span></p>
+                </div>
                 
             </div>
         </div>

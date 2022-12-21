@@ -10,31 +10,31 @@ function Nav(props) {
                     <li>
                         <Link className="link" to="/Home">
                             <img id="home" src="icons/icon-home.png"/>
-                            <p className="nav-name">Home</p>
+                            <p className="nav-name"><span className="n">Home</span></p>
                         </Link>
                     </li>
                     <li>
                         <Link className="link" to="/About">
                             <img id="about" src="icons/icon-about.png"/>
-                            <p className="nav-name">About Me</p>
+                            <p className="nav-name"><span className="n">About Me</span></p>
                         </Link>
                     </li>
                     <li>
                         <Link className="link" to="/Activity">
                             <img id="activity" src="icons/icon-activity.png"/>
-                            <p className="nav-name">Activity</p>
+                            <p className="nav-name"><span className="n">Activity</span></p>
                         </Link>
                     </li>
                     <li>
                         <Link className="link" to="/Portfolio">
                             <img id="portfolio" src="icons/icon-portfolio.png"/>
-                            <p className="nav-name">Portfolio</p>
+                            <p className="nav-name"><span className="n">Portfolio</span></p>
                         </Link>
                     </li>
                     <li>
                         <Link className="link" to="/Contact">
                             <img id="contact" src="icons/icon-contact.png"/>
-                            <p className="nav-name">Contact</p>
+                            <p className="nav-name"><span className="n">Contact</span></p>
                         </Link>
                     </li>
                 </ul>

@@ -22,7 +22,7 @@ function Home(props) {
                             }}
                         />
                     </p>
-                    <p>안효원의 포트폴리오</p>
+                    <p><span className="gradient">안효원의 포트폴리오</span></p>
                     <p>Back-End Developer</p>
                 </div>
             </div>
