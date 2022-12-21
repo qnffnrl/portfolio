@@ -82,7 +82,7 @@ function Activity(props) {
                                     <div className="stack">TTS</div><div className="stack">Flask</div><div className="stack">MySQL</div>
                                 </div>
                                 <div className="d-flex tech-stack tools">
-                                    <div className="stack">IntellJ</div><div className="stack">Webstorm</div><div className="stack">vsCode</div>
+                                    <div className="stack">IntelliJ</div><div className="stack">Webstorm</div><div className="stack">vsCode</div>
                                     <div className="stack">NaviCat</div><div className="stack">HeidiSQL</div><div className="stack">MobaXterm</div>
                                     <div className="stack">PhpStorm</div>
                                 </div>
