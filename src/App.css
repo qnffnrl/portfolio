@@ -213,6 +213,11 @@ body{
 #div-aboutMe > #content > #content-left {
   width: 65%;
   margin-right: 5%;
+  min-width: 792px;
+}
+
+#div-aboutMe > ul{
+  min-width: 365px;
 }
 
 #div-aboutMe > #content > #content-right {
@@ -262,6 +267,7 @@ body{
   width: 50%;
   height: 100%;
   padding: 20px 0 0 10px;
+  min-width: 609px;
 }
 
 .doIt-title{
@@ -277,6 +283,10 @@ body{
 
 /******************************** start-activity **********************************/
 
+#activity-min-width{
+  min-width: 609px;
+}
+
 #activity-content{
   width: 100%;
 }
@@ -284,6 +294,7 @@ body{
 #activity-content-left{
   width: 49%;
   margin-right: 1%;
+  min-width: 597px;
 }
 
 #activity-content-right{
@@ -370,7 +381,7 @@ h3{
   display: none;
   position: absolute;
   right: 80px;
-  top: 50px;
+  top: 20px;
   background-color: #444444;
   font-size: 20px;
   border-radius: 25px;
@@ -443,8 +454,6 @@ h3{
   z-index: 999;
 }
 
-
-
 .stack:not(.stack:last-child){
   margin-right: 1%;
 }
@@ -461,11 +470,32 @@ h3{
   color: whitesmoke;
 }
 
+.scale {
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
 
+.scale:hover {
+  transform: scale(2);
+  z-index: 999;
+}
 
+.img-award{
+  width: 140px;
+  height: 200px;
+  margin-right: 30px;
+}
 
+#last-title{
+  margin-top: 50px;
+}
 
+.img-certi{
+ width: 150px;
+  height: 90px;
+  margin-right: 25px;
+}
 
-
-
-
+#last-div{
+  margin-bottom: 100px;
+}

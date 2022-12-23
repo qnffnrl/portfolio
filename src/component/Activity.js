@@ -9,12 +9,13 @@ function Activity(props) {
             <div className="wrapper">
                 <div id="activity-all">
                     <div className="d-flex w-100">
-                        <p className="w-50 title font-size-big"><span className="gradient">@Activity</span></p>
+                        <p id="activity-min-width" className="w-50 title font-size-big"><span className="gradient">@Activity</span></p>
                         <p id="skills" className="title font-size-big"><span className="gradient">@</span><span className="gradient under-dotted-line">Skills</span></p>
                         <div id="hover-text" className="text-center">
                             <p className="bold"><span className="gradient">* Percentage</span></p>
                             <p>70% &lt;=  업무에서 사용해요  &lt;= 100%</p>
                             <p>50% &lt;=  공부가 조금 필요해요  &lt; 70%</p>
+                            <p>공부가 조금 더 필요해요  &lt; 50%</p>
                         </div>
                     </div>
                     <div id="activity-content" className="d-flex">
@@ -97,8 +98,30 @@ function Activity(props) {
 
                 <div className="d-flex flex-direction-column">
                     <p className="sub-title"><span className="gradient">@Award</span> history</p>
-                    <div></div>
-                    <p className="sub-title"><span className="gradient">@Certificate</span></p>
+                    <div className="d-flex">
+                        <div className="scale">
+                            <img className="img-award" src="images/award-1.jpg"/>
+                        </div>
+                        <div className="scale">
+                            <img className="img-award" src="images/award-2.jpg"/>
+                        </div>
+                        <div className="scale">
+                            <img className="img-award" src="images/award-3.jpg"/>
+                        </div>
+                        <div className="scale">
+                            <img className="img-award" src="images/award-4.jpg"/>
+                        </div>
+                    </div>
+                    <p id="last-title" className="sub-title"><span className="gradient">@Certificate</span></p>
+                    <div id="last-div" className="d-flex">
+                        <div className="scale"><img className="img-certi" src="images/certi-1.jpg"/></div>
+                        <div className="scale"><img className="img-certi" src="images/certi-2.jpg"/></div>
+                        <div className="scale"><img className="img-certi" src="images/certi-3.jpg"/></div>
+                        <div className="scale"><img className="img-certi" src="images/certi-4.jpg"/></div>
+                        <div className="scale"><img className="img-certi" src="images/certi-5.jpg"/></div>
+                        <div className="scale"><img className="img-certi" src="images/certi-6.jpg"/></div>
+                        <div className="scale"><img className="img-certi" src="images/certi-7.jpg"/></div>
+                    </div>
                 </div>
                 
             </div>
