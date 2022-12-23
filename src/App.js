@@ -1,6 +1,7 @@
 /* eslint-disable */
 import './App.css';
 import "./custom-tools.css"
+import "./modal.css"
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./component/Home";
