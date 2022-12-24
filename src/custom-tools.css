@@ -35,6 +35,14 @@
     justify-content: space-between;
 }
 
+.justify-content-around{
+    justify-content: space-around;
+}
+
+.justify-content-end{
+    justify-content: end;
+}
+
 .d-none{
     opacity: 0;
 }
@@ -49,6 +57,10 @@
 
 .font-size-middle{
     font-size: 25px;
+}
+
+.font-size-small{
+    font-size: 15px;
 }
 
 .text-left{
@@ -141,4 +153,8 @@
 
 .w-100{
     width: 100%;
+}
+
+.border-white{
+    border: 1px solid whitesmoke;
 }
