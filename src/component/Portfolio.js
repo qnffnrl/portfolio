@@ -17,7 +17,7 @@ function Portfolio(props) {
                                    linkPath={"http://www.risker.shop:8080/board/main"} githubPath={"https://github.com/qnffnrl/springbootBoard"}/>
                     
                     <PortfolioCard numbering={3} headerName={"2022 캡스톤 디자인 TTS를 활용한 파일 리딩 프로그램"} imgPath={"images/portfolio/tts.png"}
-                                   linkPath={"http://www.captonemtb.kro.kr"} githubPath={"https://github.com/qnffnrl/2022_1_capstone"}/>
+                                   linkPath={"http://www.captonemtb.kro.kr"} githubPath={"https://github.com/qnffnrl/2022_1_capstone"}  comment={"(준비중)"}/>
 
                     <PortfolioCard numbering={4} headerName={"2021 단기집중교육 JSP 웹 게시판 제작"} imgPath={"images/portfolio/jsp.png"}
                                    linkPath={"#"} githubPath={"https://github.com/qnffnrl/jsp_board"} comment={"(준비중)"}/>

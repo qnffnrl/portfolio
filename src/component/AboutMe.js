@@ -4,7 +4,7 @@ import React from 'react';
 function AboutMe(props) {
     return (
         <div className="back">
-            <div className="wrapper about-wrapper">
+            <div id="overflow-x-hidden" className="wrapper about-wrapper">
                 <div id="div-aboutMe">
                     <p className="title font-size-big"><span className="gradient">@About</span> Me</p>
                     <div id="content">
@@ -32,14 +32,12 @@ function AboutMe(props) {
                             <p className="doIt-title">Programming</p>
                             <p className="doIt-content">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto aspernatur debitis distinctio earum ex hic, magnam magni maxime minima minus necessitatibus, odit omnis perferendis quam repudiandae veritatis vitae voluptate.
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto aspernatur debitis distinctio earum ex hic, magnam magni maxime minima minus necessitatibus, odit omnis perferendis quam repudiandae veritatis vitae voluptate.
                             </p>
                         </div>
                         <div className="canDoIt">
                             <img src="icons/icon-linux.png"/>
                             <p className="doIt-title">Linux / Network</p>
                             <p className="doIt-content">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto aspernatur debitis distinctio earum ex hic, magnam magni maxime minima minus necessitatibus, odit omnis perferendis quam repudiandae veritatis vitae voluptate.
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto aspernatur debitis distinctio earum ex hic, magnam magni maxime minima minus necessitatibus, odit omnis perferendis quam repudiandae veritatis vitae voluptate.
                             </p>
                         </div>
@@ -50,14 +48,12 @@ function AboutMe(props) {
                             <p className="doIt-title">Front-End</p>
                             <p className="doIt-content">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto aspernatur debitis distinctio earum ex hic, magnam magni maxime minima minus necessitatibus, odit omnis perferendis quam repudiandae veritatis vitae voluptate.
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto aspernatur debitis distinctio earum ex hic, magnam magni maxime minima minus necessitatibus, odit omnis perferendis quam repudiandae veritatis vitae voluptate.
                             </p>
                         </div>
                         <div className="canDoIt">
                             <img src="icons/icon-backend.png"/>
                             <p className="doIt-title">Back-End</p>
                             <p className="doIt-content">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto aspernatur debitis distinctio earum ex hic, magnam magni maxime minima minus necessitatibus, odit omnis perferendis quam repudiandae veritatis vitae voluptate.
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto aspernatur debitis distinctio earum ex hic, magnam magni maxime minima minus necessitatibus, odit omnis perferendis quam repudiandae veritatis vitae voluptate.
                             </p>
                         </div>
