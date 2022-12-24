@@ -25,6 +25,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 * SPA로 구현
 * Component 최대한 
 * 프로젝트 소개 페이지에서 modal 기능 활용
+* 중복 코드 최소화 
 
 ## 라이브러리
 * react-router-com
