@@ -6,9 +6,8 @@ function Timeline(props) {
     return (
         <li className="event" data-date={props.data}>
             <h3>{props.title}</h3>
-            <p>
-                {props.content}
-            </p>
+            <p className="main-content">{props.content}</p>
+            <p className="sub-content">{props.content2}</p>
         </li>
     );
 }
