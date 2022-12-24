@@ -106,7 +106,7 @@ function Activity(props) {
                             </div>
                         </div>
 
-                        <p id="last-title-before" className="sub-title"><span className="gradient">@Award</span> history</p>
+                        <p id="last-title-before" className="title font-size-big"><span className="gradient">@Award</span> history</p><br/>
                         <div className="d-flex justify-content-around">
                             <div className="scale">
                                 <img className="img-award" src="images/activity/award-1.jpg"/>
@@ -115,7 +115,7 @@ function Activity(props) {
                                 <img className="img-award" src="images/activity/award-2.jpg"/>
                             </div>
                         </div>
-                        <br/>
+                        <br/><br/>
                         <div className="d-flex justify-content-around">
                             <div className="scale">
                                 <img className="img-award" src="images/activity/award-3.jpg"/>
@@ -129,7 +129,7 @@ function Activity(props) {
 
                 <div className="d-flex flex-direction-column">
 
-                    <p id="last-title" className="sub-title"><span className="gradient">@Certificate</span></p>
+                    <p id="last-title" className="title font-size-big"><span className="gradient">@Certificate</span></p>
                     <div id="last-div" className="d-flex">
                         <div className="scale5"><img className="img-certi" src="images/activity/certi-1.jpg"/></div>
                         <div className="scale"><img className="img-certi" src="images/activity/certi-2.jpg"/></div>
