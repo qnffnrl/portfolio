@@ -1,6 +1,10 @@
 # portfolio
 react 포트폴리오 제작
 
+## @Todo
+* About Me 페이지 내용 채우기
+* (Github pages || 내 서버) 결정한 후 빌드/배포하기
+
 ![react](https://user-images.githubusercontent.com/71891870/208365891-04c55de3-c294-40ba-aca3-097efc730a4c.png)
 
 # Reference / Clone coding
