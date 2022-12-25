@@ -15,6 +15,7 @@ body{
   list-style: none;
   margin: 0;
   padding: 0;
+  color: whitesmoke;
 }
 
 .page {
@@ -212,13 +213,19 @@ body{
   height: 30%;
 }
 
+.introduce:first-child{
+  font-size: 20px;
+}
+
+.introduce{
+  margin-bottom: 10px;
+}
+
 #div-aboutMe > #content {
   display: flex;
 }
 
 #div-aboutMe > #content > #content-left {
-  width: 65%;
-  margin-right: 5%;
   min-width: 792px;
 }
 
@@ -248,7 +255,7 @@ body{
 
 #div-whatICanDo {
   display: flex;
-  padding-top: 5%;
+  padding-top: 3.5%;
   height: 60%;
   flex-direction: column;
   width: 100%;
@@ -260,13 +267,15 @@ body{
 
 #canDoIt-top {
   display: flex;
-  /*height: 50%;*/
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #canDoIt-bottom {
   display: flex;
-  /*height: 50%;*/
+}
+
+#canDoIt-top > .canDoIt:first-child, #canDoIt-bottom > .canDoIt:first-child{
+  margin-right: 50px;
 }
 
 .canDoIt {
@@ -283,6 +292,7 @@ body{
 
 .doIt-content{
   padding-left: 10px;
+  line-height: 25px;
 }
 
 /******************************** end-about **********************************/
@@ -706,6 +716,7 @@ h3{
   border-radius: 50%;
 }
 
+/******************************** end-contact **********************************/
 
 
 
