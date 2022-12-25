@@ -3,7 +3,7 @@ import './App.css';
 import "./custom-tools.css"
 import "./modal.css"
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./component/Home";
 import Nav from "./component/Nav"
 import AboutMe from "./component/AboutMe";
@@ -13,17 +13,17 @@ import Contact from "./component/Contact";
 
 function App (){
     return (
-        <div className="page">
-            <Nav></Nav>
-            <Routes>
-                <Route path="/" element={<Home/>} exact={true}/>
-                <Route path="/Home" element={<Home/>} exact={true}/>
-                <Route path="/About" element={<AboutMe/>} exact={true}/>
-                <Route path="/Activity" element={<Activity/>} exact={true}/>
-                <Route path="/Portfolio" element={<Portfolio/>} exact={true}/>
-                <Route path="/Contact" element={<Contact/>} exact={true}/>
-            </Routes>
-        </div>
+            <div className="page">
+                <Nav></Nav>
+                <Routes>
+                    <Route exact path="/Home" element={<Home/>}/>
+                    <Route exact path="/" element={<Home/>}/>
+                    <Route exact path="/About" element={<AboutMe/>}/>
+                    <Route exact path="/Activity" element={<Activity/>}/>
+                    <Route exact path="/Portfolio" element={<Portfolio/>}/>
+                    <Route exact path="/Contact" element={<Contact/>}/>
+                </Routes>
+            </div>
     )
 }
 export default App;
