@@ -15,7 +15,7 @@ function App (){
     return (
             <div className="page">
                 <Nav></Nav>
-                <Routes basename={process.env.PUBLIC_URL}>
+                <Routes>
                     <Route exact path="/" element={<Home/>}/>
                     <Route exact path="/About" element={<AboutMe/>}/>
                     <Route exact path="/Activity" element={<Activity/>}/>
