@@ -20,7 +20,7 @@ function AboutMe(props) {
                                 <li><span className="gradient bold">Age</span> <span>25</span></li>
                                 <li><span className="gradient bold">Area</span> <span>Seoul / Gyeonggi / Incheon</span></li>
                                 <li><span className="gradient bold">e-mail</span> <span>roakfwk30@naver.com</span></li>
-                                <li><span className="gradient bold">Phone</span> <span>010-5635-5918</span></li>
+                                <li><span className="gradient bold">Phone</span> <span>010-5635-****</span></li>
                             </ul>
                         </div>
                     </div>

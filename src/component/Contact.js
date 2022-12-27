@@ -11,7 +11,7 @@ function Contact(props) {
                 <div id="contact-content" className="w-100 d-flex">
                     <div id="contact-left" className="d-flex flex-direction-column w-35">
                         <ContactCard iconPath={"icons/icon-gps.png"} text={"Gwangju, Korea"}></ContactCard>
-                        <ContactCard iconPath={"icons/icon-phone.png"} text={"010-5635-5918"}></ContactCard>
+                        <ContactCard iconPath={"icons/icon-phone.png"} text={"010-5635-****"}></ContactCard>
                         <ContactCard iconPath={"icons/icon-mail.png"} text={"roakfwk30@naver.com"}></ContactCard>
                     </div>
                     <div id="contact-right" className="d-flex flex-direction-column w-60">
