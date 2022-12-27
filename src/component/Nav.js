@@ -8,7 +8,7 @@ function Nav(props) {
             <div className="nav-left">
                 <ul>
                     <li>
-                        <Link className="link" to="/Home">
+                        <Link className="link" to="/">
                             <img id="home" src="icons/icon-home.png"/>
                             <p className="nav-name"><span className="n">Home</span></p>
                         </Link>

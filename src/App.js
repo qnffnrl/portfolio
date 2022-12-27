@@ -3,7 +3,7 @@ import './App.css';
 import "./custom-tools.css"
 import "./modal.css"
 import React from "react";
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import Home from "./component/Home";
 import Nav from "./component/Nav"
 import AboutMe from "./component/AboutMe";
@@ -15,8 +15,7 @@ function App (){
     return (
             <div className="page">
                 <Nav></Nav>
-                <Routes>
-                    <Route exact path="/Home" element={<Home/>}/>
+                <Routes basename={process.env.PUBLIC_URL}>
                     <Route exact path="/" element={<Home/>}/>
                     <Route exact path="/About" element={<AboutMe/>}/>
                     <Route exact path="/Activity" element={<Activity/>}/>
