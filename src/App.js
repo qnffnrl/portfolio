@@ -8,7 +8,7 @@ import Home from "./component/Home";
 import Nav from "./component/Nav"
 import AboutMe from "./component/AboutMe";
 import Activity from "./component/Activity";
-import Portfolio from "./component/Portfolio";
+import Folio from "./component/Folio";
 import Contact from "./component/Contact";
 
 function App (){
@@ -19,7 +19,7 @@ function App (){
                     <Route exact path="/" element={<Home/>}/>
                     <Route exact path="/About" element={<AboutMe/>}/>
                     <Route exact path="/Activity" element={<Activity/>}/>
-                    <Route exact path="/Portfolio" element={<Portfolio/>}/>
+                    <Route exact path="/Folio" element={<Folio/>}/>
                     <Route exact path="/Contact" element={<Contact/>}/>
                 </Routes>
             </div>
@@ -52,21 +52,21 @@ function clear(){
  */
 function checkIndex(){
     let index = (window.location.href).split('/')[3];
-    if(index === "Home" || index === "") {
+    if(index === "Contact") {
         clear();
-        document.getElementsByClassName("n")[0].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
+        document.getElementsByClassName("n")[4].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
     }else if(index === "About"){
         clear();
         document.getElementsByClassName("n")[1].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
     }else if(index === "Activity"){
         clear();
         document.getElementsByClassName("n")[2].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
-    }else if(index === "Portfolio"){
+    }else if(index === "Folio"){
         clear();
         document.getElementsByClassName("n")[3].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
     }else{
         clear();
-        document.getElementsByClassName("n")[4].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
+        document.getElementsByClassName("n")[0].setAttribute("style", "background: linear-gradient(90deg, #ee0979, #ff6a00); color: transparent; -webkit-background-clip: text; font-weight: bolder;")
     }
 }
 setInterval(checkIndex, 100);

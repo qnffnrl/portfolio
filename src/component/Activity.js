@@ -109,19 +109,19 @@ function Activity(props) {
                         <p id="last-title-before" className="title font-size-big"><span className="gradient">@Award</span> history</p><br/>
                         <div className="d-flex justify-content-around">
                             <div className="scale">
-                                <img className="img-award" src="images/activity/award-1.jpg"/>
+                                <img className="img-award" src={process.env.PUBLIC_URL + "/images/activity/award-1.jpg"}/>
                             </div>
                             <div className="scale">
-                                <img className="img-award" src="images/activity/award-2.jpg"/>
+                                <img className="img-award" src={process.env.PUBLIC_URL + "/images/activity/award-2.jpg"}/>
                             </div>
                         </div>
                         <br/><br/>
                         <div className="d-flex justify-content-around">
                             <div className="scale">
-                                <img className="img-award" src="images/activity/award-3.jpg"/>
+                                <img className="img-award" src={process.env.PUBLIC_URL + "/images/activity/award-3.jpg"}/>
                             </div>
                             <div className="scale">
-                                <img className="img-award" src="images/activity/award-4.jpg"/>
+                                <img className="img-award" src={process.env.PUBLIC_URL + "/images/activity/award-4.jpg"}/>
                             </div>
                         </div>
                     </div>
@@ -131,13 +131,13 @@ function Activity(props) {
 
                     <p id="last-title" className="title font-size-big"><span className="gradient">@Certificate</span></p>
                     <div id="last-div" className="d-flex">
-                        <div className="scale5"><img className="img-certi" src="images/activity/certi-1.jpg"/></div>
-                        <div className="scale"><img className="img-certi" src="images/activity/certi-2.jpg"/></div>
-                        <div className="scale"><img className="img-certi" src="images/activity/certi-3.jpg"/></div>
-                        <div className="scale"><img className="img-certi" src="images/activity/certi-4.jpg"/></div>
-                        <div className="scale"><img className="img-certi" src="images/activity/certi-5.jpg"/></div>
-                        <div className="scale"><img className="img-certi" src="images/activity/certi-6.jpg"/></div>
-                        <div className="scale"><img className="img-certi" src="images/activity/certi-7.jpg"/></div>
+                        <div className="scale5"><img className="img-certi" src={process.env.PUBLIC_URL + "/images/activity/certi-1.jpg"}/></div>
+                        <div className="scale"><img className="img-certi" src={process.env.PUBLIC_URL + "/images/activity/certi-2.jpg"}/></div>
+                        <div className="scale"><img className="img-certi" src={process.env.PUBLIC_URL + "/images/activity/certi-3.jpg"}/></div>
+                        <div className="scale"><img className="img-certi" src={process.env.PUBLIC_URL + "/images/activity/certi-4.jpg"}/></div>
+                        <div className="scale"><img className="img-certi" src={process.env.PUBLIC_URL + "/images/activity/certi-5.jpg"}/></div>
+                        <div className="scale"><img className="img-certi" src={process.env.PUBLIC_URL + "/images/activity/certi-6.jpg"}/></div>
+                        <div className="scale"><img className="img-certi" src={process.env.PUBLIC_URL + "/images/activity/certi-7.jpg"}/></div>
                     </div>
                 </div>
                 

@@ -46,8 +46,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Activation
 ![portfolio  Activation](https://user-images.githubusercontent.com/71891870/208224281-bebc3314-6876-4af3-833a-fb59ab953f7a.png)
 
-## Portfolio
-![portfolio  Portfolio](https://user-images.githubusercontent.com/71891870/208224289-560eb087-26fe-462e-ad91-20c3a79a100f.png)
+## Folio
+![portfolio  Folio](https://user-images.githubusercontent.com/71891870/208224289-560eb087-26fe-462e-ad91-20c3a79a100f.png)
 
 ## Contact
 ![portfolio  Contact](https://user-images.githubusercontent.com/71891870/208224295-16117d76-b98a-4ba2-aaaf-9f74cd6d889b.png)

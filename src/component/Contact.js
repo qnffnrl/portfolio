@@ -10,9 +10,9 @@ function Contact(props) {
                 <p id="contact-title"><span className="title font-size-big gradient">@Contact</span></p>
                 <div id="contact-content" className="w-100 d-flex">
                     <div id="contact-left" className="d-flex flex-direction-column w-35">
-                        <ContactCard iconPath={"icons/icon-gps.png"} text={"Gwangju, Korea"}></ContactCard>
-                        <ContactCard iconPath={"icons/icon-phone.png"} text={"010-5635-****"}></ContactCard>
-                        <ContactCard iconPath={"icons/icon-mail.png"} text={"roakfwk30@naver.com"}></ContactCard>
+                        <ContactCard iconPath={process.env.PUBLIC_URL + "/icons/icon-gps.png"} text={"Gwangju, Korea"}></ContactCard>
+                        <ContactCard iconPath={process.env.PUBLIC_URL + "/icons/icon-phone.png"} text={"010-5635-****"}></ContactCard>
+                        <ContactCard iconPath={process.env.PUBLIC_URL + "/icons/icon-mail.png"} text={"roakfwk30@naver.com"}></ContactCard>
                     </div>
                     <div id="contact-right" className="d-flex flex-direction-column w-60">
                         <Map></Map>
@@ -21,7 +21,7 @@ function Contact(props) {
                             <div className="d-flex justify-content-center align-items-center">
                                 <div className="d-flex flex-direction-column justify-content-center align-items-center">
                                     <p className="gradient bold">Back-End Developer</p>
-                                    <img src="images/risker_profile.png"/><br/>
+                                    <img src={process.env.PUBLIC_URL + "/images/risker_profile.png"}/><br/>
                                     <p><span className="gradient">@risker</span></p>
                                 </div>
                                 <div className="d-flexalign-items-center">

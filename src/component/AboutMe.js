@@ -30,7 +30,7 @@ function AboutMe(props) {
                     <p className="title font-size-middle"><span className="gradient">@What</span> I Can Do</p>
                     <div id="canDoIt-top">
                         <div className="canDoIt">
-                            <img src="icons/icon-backend.png"/>
+                            <img src={process.env.PUBLIC_URL + "/icons/icon-backend.png"}/>
                             <p className="doIt-title">Back-End</p>
                             <p className="doIt-content">
                                 ㆍJava 진영의 웹 프레임워크인 <span className="gradient">Springboot</span>를 사용합니다 <br/>
@@ -39,7 +39,7 @@ function AboutMe(props) {
                             </p>
                         </div>
                         <div className="canDoIt">
-                            <img src="icons/icon-linux.png"/>
+                            <img src={process.env.PUBLIC_URL + "/icons/icon-linux.png"}/>
                             <p className="doIt-title">Linux / Infra</p>
                             <p className="doIt-content">
                                 ㆍ개발자는 <span className="gradient">서비스업</span>이라고 생각합니다 <br/>
@@ -53,21 +53,25 @@ function AboutMe(props) {
                     </div>
                     <div id="canDoIt-bottom">
                         <div className="canDoIt">
-                            <img src="icons/icon-frontEnd.png"/>
+                            <img src={process.env.PUBLIC_URL + "/icons/icon-frontEnd.png"}/>
                             <p className="doIt-title">Front-End</p>
                             <p className="doIt-content font-size-small">
                                 ㆍBack-End 개발자라고 해서 Front-End를 모르는건 옳지 않다고 생각합니다 <br/>
                                 <span className="d-none">ㆍ</span>Front를 알면 Front 개발자의 입장을 알 수 있을테고, Front 개발자의 입장을 알면 <br/>
-                                <span className="d-none">ㆍ</span>Front/Back-End 개발자간의 원활한 소통을 통해 좋은 협업이 될 수 있다고 생각합니다 <br/>
-                                ㆍFront와 Back-End 간의 데이터 통신을 공부하고, <br/>
+                                <span className="d-none">ㆍ</span>Front/Back-End 개발자간의 원활한 소통을 통해 좋은 협업을 할 수 있다고 생각합니다 <br/>
+                                ㆍ그래서 Front와 Back-End 간의 데이터 통신을 공부하고, <br/>
                                 <span className="d-none">ㆍ</span><span className="gradient">React</span>를 활용하여 본 포트폴리오를 제작하고 있습니다
                             </p>
                         </div>
                         <div className="canDoIt">
-                            <img src="icons/icon-programming.png"/>
+                            <img src={process.env.PUBLIC_URL + "/icons/icon-programming.png"}/>
                             <p className="doIt-title">Programming</p>
                             <p className="doIt-content">
-                                ㆍLorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores beatae dolorum eaque exercitationem odit qui repellendus sapiente voluptates! Dolores fuga ratione saepe! Commodi culpa hic ipsam, perspiciatis qui ratione sunt.
+                                ㆍ대학을 다니면서 여러가지 프로그래밍 언어를 접해보았는데, <br/>
+                                <span className="d-none">ㆍ</span>그 중에서 <span className="gradient">Java</span> 언어가 가장 재미 있었습니다 <br/>
+                                ㆍJava의 <span className="gradient">객체 지향</span>이라는 어려운 개념이 맨 처음에는 저를 힘들게 했지만, <br/>
+                                <span className="d-none">ㆍ</span>그런 어려운 개념을 점점 내 것으로 만들면서 공부하다 보니 <br/>
+                                <span className="d-none">ㆍ</span>가장 잘 다루는 언어가 Java가 되어 있었습니다.
                             </p>
                         </div>
                     </div>

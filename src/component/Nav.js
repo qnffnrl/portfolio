@@ -9,31 +9,31 @@ function Nav(props) {
                 <ul>
                     <li>
                         <Link className="link" to="/">
-                            <img id="home" src="icons/icon-home.png"/>
+                            <img id="home" src={process.env.PUBLIC_URL + "/icons/icon-home.png"}/>
                             <p className="nav-name"><span className="n">Home</span></p>
                         </Link>
                     </li>
                     <li>
                         <Link className="link" to="/About">
-                            <img id="about" src="icons/icon-about.png"/>
+                            <img id="about" src={process.env.PUBLIC_URL + "/icons/icon-about.png"}/>
                             <p className="nav-name"><span className="n">About Me</span></p>
                         </Link>
                     </li>
                     <li>
                         <Link className="link" to="/Activity">
-                            <img id="activity" src="icons/icon-activity.png"/>
+                            <img id="activity" src={process.env.PUBLIC_URL + "/icons/icon-activity.png"}/>
                             <p className="nav-name"><span className="n">Activity</span></p>
                         </Link>
                     </li>
                     <li>
-                        <Link className="link" to="/Portfolio">
-                            <img id="portfolio" src="icons/icon-portfolio.png"/>
-                            <p className="nav-name"><span className="n">Portfolio</span></p>
+                        <Link className="link" to="/Folio">
+                            <img id="portfolio" src={process.env.PUBLIC_URL + "/icons/icon-portfolio.png"}/>
+                            <p className="nav-name"><span className="n">Folio</span></p>
                         </Link>
                     </li>
                     <li>
                         <Link className="link" to="/Contact">
-                            <img id="contact" src="icons/icon-contact.png"/>
+                            <img id="contact" src={process.env.PUBLIC_URL + "/icons/icon-contact.png"}/>
                             <p className="nav-name"><span className="n">Contact</span></p>
                         </Link>
                     </li>
@@ -47,7 +47,7 @@ function Nav(props) {
                     <p className="to-be"><span className="gradient">@risker</span></p>
                     <div className="social">
                         <ul>
-                            <li><a href="https://github.com/qnffnrl"><img src="icons/icon-github.png"/></a></li>
+                            <li><a href="https://github.com/qnffnrl"><img src={process.env.PUBLIC_URL + "/icons/icon-github.png"}/></a></li>
                         </ul>
                     </div>
                 </div>
