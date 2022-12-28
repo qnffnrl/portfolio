@@ -10,7 +10,7 @@ function Folio(props) {
                 <p className="w-100 title font-size-big"><span className="gradient">@Portfolio</span></p>
                 <div className="d-flex card-wrap">
 
-                    <PortfolioCard numbering={1} headerName={"PHP 웹 게시판 제작"} imgPath={"images/portfolio/php.jpg"} subHeader={"PHP"}
+                    <PortfolioCard numbering={1} headerName={"PHP 웹 게시판 제작"} imgPath={"images/portfolio/php.JPG"} subHeader={"PHP"}
                                    linkPath={"http://www.risker.shop/board"} githubPath={"https://github.com/qnffnrl/phpBoard"}/>
 
                     <PortfolioCard numbering={2} headerName={"test"} headerName={"Springboot 웹 게시판 제작"} imgPath={"images/portfolio/springboot.png"} subHeader={"Sprngboot / Spring Security / Spring Data JPA"}

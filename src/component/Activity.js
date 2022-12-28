@@ -7,6 +7,10 @@ function Activity(props) {
     return (
         <div className="back">
             <div className="wrapper">
+                <div id="scroll" className="d-flex flex-direction-column justify-content-center align-items-center">
+                    <p>Scroll Down!</p>
+                    <span className="gradient bold">↓↓↓</span>
+                </div>
                 <div className="d-flex w-100">
                     <p id="activity-min-width" className="w-50 title font-size-big"><span className="gradient">@Activity</span></p>
                     <p id="skills" className="title font-size-big"><span className="gradient">@</span><span className="gradient under-dotted-line">Skills</span></p>
