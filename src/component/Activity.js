@@ -25,7 +25,7 @@ function Activity(props) {
                     <div id="activity-content-left" className="d-flex flex-direction-column">
                         <p className="sub-title">Education</p>
                         <ul className="timeline">
-                            <Timeline data="2017.02 ~ 2023.02" title="광주대학교" content="융합소프트웨어학과 4.11 / 4.5"/>
+                            <Timeline data="2017.02 ~ 2023.02" title="광주대학교" content="융합소프트웨어학과 4.15 / 4.5"/>
                             <Timeline data="2020.08 ~ 2020.08" title="한국정보통신교육원" content="IoT 융합서비스를 위한 SW개발 응용과정"/>
                             <Timeline data="2020.09 ~ 2020.09" title="한국정보통신교육원" content="객체지향개발자(JAVA) 개발자 기초과정"/>
                             <Timeline data="2021.01 ~ 2021.01" title="㈜휴인스" content="NVIDIA 보드를 활용한 인공지능 알고리즘 기초 과정"/>
