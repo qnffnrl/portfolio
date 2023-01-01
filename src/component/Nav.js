@@ -28,7 +28,7 @@ function Nav(props) {
                     <li>
                         <Link className="link" to="/Folio">
                             <img id="portfolio" src={process.env.PUBLIC_URL + "/icons/icon-portfolio.png"}/>
-                            <p className="nav-name"><span className="n">Folio</span></p>
+                            <p className="nav-name"><span className="n">Portfolio</span></p>
                         </Link>
                     </li>
                     <li>
