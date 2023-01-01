@@ -46,8 +46,9 @@ function Nav(props) {
                     <p className="name">안 효 원</p>
                     <p className="to-be"><span className="gradient">@risker</span></p>
                     <div className="social">
-                        <ul>
+                        <ul className="d-flex justify-content-center align-items-center">
                             <li><a href="https://github.com/qnffnrl"><img src={process.env.PUBLIC_URL + "/icons/icon-github.png"}/></a></li>
+                            <li><a href="https://career.programmers.co.kr/job_profiles/public_setting"><img className="icon-wh-48" src={process.env.PUBLIC_URL + "/icons/icon-programmers.png"}/></a></li>
                         </ul>
                     </div>
                 </div>
