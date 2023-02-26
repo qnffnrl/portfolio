@@ -65,7 +65,7 @@ function Activity(props) {
                             <Gauge title="SpringBoot" percentage=" w-80"></Gauge>
                             <Gauge title="JSP" percentage=" w-70"></Gauge>
                             <Gauge title="PHP" percentage=" w-65"></Gauge>
-                            <Gauge title="Mysql" percentage=" w-85"></Gauge>
+                            <Gauge title="NodeJS" percentage=" w-40"></Gauge>
 
                             <p className="sub-title">Coding <span className="gradient">Skills</span></p>
                             <Gauge title="Java" percentage=" w-85"></Gauge>
