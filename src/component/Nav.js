@@ -54,7 +54,7 @@ function Nav(props) {
                     </div>
                 </div>
                 <div>
-                    <p className="copy">&copy; 2022 risker all right reserved.</p>
+                    <p className="copy">&copy; 2024 risker all right reserved.</p>
                 </div>
             </div>
         </div>

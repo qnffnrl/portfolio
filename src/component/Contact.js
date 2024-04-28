@@ -10,7 +10,7 @@ function Contact(props) {
                 <p id="contact-title"><span className="title font-size-big gradient">@Contact</span></p>
                 <div id="contact-content" className="w-100 d-flex">
                     <div id="contact-left" className="d-flex flex-direction-column w-35">
-                        <ContactCard iconPath={process.env.PUBLIC_URL + "/icons/icon-gps.png"} text={"Gwangju, Korea"}></ContactCard>
+                        <ContactCard iconPath={process.env.PUBLIC_URL + "/icons/icon-gps.png"} text={"Yongin, Korea"}></ContactCard>
                         <ContactCard iconPath={process.env.PUBLIC_URL + "/icons/icon-phone.png"} text={"010-5635-****"}></ContactCard>
                         <ContactCard iconPath={process.env.PUBLIC_URL + "/icons/icon-mail.png"} text={"roakfwk30@naver.com"}></ContactCard>
                     </div>

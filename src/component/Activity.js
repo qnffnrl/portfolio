@@ -43,6 +43,8 @@ function Activity(props) {
                             content2={"JSP를 활용한 Web Program 구현"}/>
                             <Timeline data="2022.11 ~ 2022.12" title="(주)BA Energy" content="홈페이지 제작 용역"
                             content2={"배터리 모니터링 페이지 제작"}/>
+                            <Timeline data="2023.06 ~ ing" title="(주)브이엠에스솔루션스" content="재직"
+                            content2={"Web FullStack Dev"}/>
                         </ul>
 
                         <p className="sub-title">Project</p>
@@ -57,6 +59,8 @@ function Activity(props) {
                             content2={"2021 프로젝트 창업동아리"}/>
                             <Timeline data="2021.09 ~ 2021.11" title="인공지능 기반 스마트 콘센트" content="전남대학교"
                             content2={"2021 광주ㆍ전남 공동혁신도시 OpenLAB 조성사업 창업동아리"}/>
+                            <Timeline data="2023.06 ~ 2024.05" title="LX하우시스 바닥재 PJT" content="(주)브이엠에스솔루션스"
+                            content2={"시스템 Web UI FullStack 개발"}/>
                         </ul>
                     </div>
                     <div id="activity-content-right" className="d-flex flex-direction-column">
@@ -97,8 +101,9 @@ function Activity(props) {
                             </div>
                             <div className="d-flex tech-stack techs">
                                 <div className="stack">HTML</div><div className="stack">CSS</div><div className="stack">React</div>
-                                <div className="stack">Javascript</div><div className="stack">Mustache</div><div className="stack">Java Servlet</div>
-                                <div className="stack">TTS</div><div className="stack">Flask</div><div className="stack">MySQL</div>
+                                <div className="stack">Javascript</div><div className="stack">Mustache</div>
+                                <div className="stack">Java Servlet</div><div className="stack">Flask</div>
+                                <div className="stack">MySQL</div><div className="stack">VueJS</div>
                             </div>
                             <div className="d-flex tech-stack tools">
                                 <div className="stack">IntelliJ</div><div className="stack">Webstorm</div><div className="stack">vsCode</div>

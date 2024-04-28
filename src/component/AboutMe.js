@@ -17,8 +17,8 @@ function AboutMe(props) {
                         </div>
                         <div id="content-right">
                             <ul>
-                                <li><span className="gradient bold">Age</span> <span>25</span></li>
-                                <li><span className="gradient bold">Area</span> <span>Seoul / Gyeonggi / Incheon</span></li>
+                                <li><span className="gradient bold">Age</span> <span>26</span></li>
+                                <li><span className="gradient bold">Area</span> <span>Seoul / Gyeonggi / Yongin</span></li>
                                 <li><span className="gradient bold">e-mail</span> <span>roakfwk30@naver.com</span></li>
                                 <li><span className="gradient bold">Phone</span> <span>010-5635-****</span></li>
                             </ul>
@@ -71,7 +71,7 @@ function AboutMe(props) {
                                 <span className="d-none">ㆍ</span>그 중에서 <span className="gradient">Java</span> 언어가 가장 재미 있었습니다 <br/>
                                 ㆍJava의 <span className="gradient">객체 지향</span>이라는 어려운 개념이 맨 처음에는 저를 힘들게 했지만, <br/>
                                 <span className="d-none">ㆍ</span>그런 어려운 개념을 점점 내 것으로 만들면서 공부하다 보니 <br/>
-                                <span className="d-none">ㆍ</span>가장 잘 다루는 언어가 Java가 되어 있었습니다.
+                                <span className="d-none">ㆍ</span>가장 좋아하는 언어가 Java가 되어 있었습니다.
                             </p>
                         </div>
                     </div>
